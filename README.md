@@ -3,7 +3,16 @@
 [演示地址](https://cunzaizhuyi.github.io/lucky-draw-vue3/index.html#/)
 
 ## 使用说明
+下载压缩包后配配置node.js和nmp环境
+配置使用 淘宝 npm 镜像 加速下载
+npm config set registry https://registry.npmmirror.com
 
+进入解压后文件夹安装插件
+cd D:\lucky-draw-vue3\
+npm install
+
+安装后打开Node.js command prompt窗口运行程序即可
+npm run dev
 ### 配置建议
 
 - 本程序理论支持配置百万级别人数，超过 10 万以上时初始化会比较耗时，初始化后可以正常抽奖。
